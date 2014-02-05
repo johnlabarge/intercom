@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		521DDE811567E6EA003B0699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521DDE801567E6EA003B0699 /* UIKit.framework */; };
+		521DDE831567E6EA003B0699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521DDE821567E6EA003B0699 /* Foundation.framework */; };
+		521DDE851567E6EA003B0699 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521DDE841567E6EA003B0699 /* CoreGraphics.framework */; };
+		521DDE8B1567E6EA003B0699 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 521DDE891567E6EA003B0699 /* InfoPlist.strings */; };
+		521DDE8D1567E6EA003B0699 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 521DDE8C1567E6EA003B0699 /* main.m */; };
+		521DDE911567E6EA003B0699 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 521DDE901567E6EA003B0699 /* AppDelegate.m */; };
+		521DDE941567E6EA003B0699 /* IntercomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 521DDE931567E6EA003B0699 /* IntercomViewController.m */; };
+		521DDE971567E6EA003B0699 /* IntercomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 521DDE951567E6EA003B0699 /* IntercomViewController.xib */; };
+		521DDE9F1567E6EA003B0699 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521DDE9E1567E6EA003B0699 /* SenTestingKit.framework */; };
+		521DDEA01567E6EA003B0699 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521DDE801567E6EA003B0699 /* UIKit.framework */; };
+		521DDEA11567E6EA003B0699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521DDE821567E6EA003B0699 /* Foundation.framework */; };
+		521DDEA91567E6EA003B0699 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 521DDEA71567E6EA003B0699 /* InfoPlist.strings */; };
+		521DDEAC1567E6EA003B0699 /* IntercomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 521DDEAB1567E6EA003B0699 /* IntercomTests.m */; };
+		5233711715696BAE00994A40 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5233711615696BAE00994A40 /* CoreFoundation.framework */; };
+		5233711A15696CB100994A40 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5233711915696CB100994A40 /* AudioToolbox.framework */; };
+		5233711C15697A4400994A40 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5233711B15697A4400994A40 /* MediaPlayer.framework */; };
+		5233711E15697E3300994A40 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5233711D15697E3300994A40 /* AVFoundation.framework */; };
+		529E60F8156C681A004744D3 /* IntercomAudioQueues.m in Sources */ = {isa = PBXBuildFile; fileRef = 529E60F7156C6819004744D3 /* IntercomAudioQueues.m */; };
+		529E60FE156F154D004744D3 /* CoreAudioHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 529E60FD156F154D004744D3 /* CoreAudioHelpers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		521DDEA21567E6EA003B0699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 521DDE731567E6E9003B0699 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521DDE7B1567E6E9003B0699;
+			remoteInfo = Intercom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		521DDE7C1567E6E9003B0699 /* Intercom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intercom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		521DDE801567E6EA003B0699 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		521DDE821567E6EA003B0699 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		521DDE841567E6EA003B0699 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		521DDE881567E6EA003B0699 /* Intercom-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Intercom-Info.plist"; sourceTree = "<group>"; };
+		521DDE8A1567E6EA003B0699 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		521DDE8C1567E6EA003B0699 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		521DDE8E1567E6EA003B0699 /* Intercom-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Intercom-Prefix.pch"; sourceTree = "<group>"; };
+		521DDE8F1567E6EA003B0699 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		521DDE901567E6EA003B0699 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		521DDE921567E6EA003B0699 /* IntercomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntercomViewController.h; sourceTree = "<group>"; };
+		521DDE931567E6EA003B0699 /* IntercomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntercomViewController.m; sourceTree = "<group>"; };
+		521DDE961567E6EA003B0699 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/IntercomViewController.xib; sourceTree = "<group>"; };
+		521DDE9D1567E6EA003B0699 /* IntercomTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntercomTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		521DDE9E1567E6EA003B0699 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		521DDEA61567E6EA003B0699 /* IntercomTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IntercomTests-Info.plist"; sourceTree = "<group>"; };
+		521DDEA81567E6EA003B0699 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		521DDEAA1567E6EA003B0699 /* IntercomTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntercomTests.h; sourceTree = "<group>"; };
+		521DDEAB1567E6EA003B0699 /* IntercomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntercomTests.m; sourceTree = "<group>"; };
+		5233711615696BAE00994A40 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5233711915696CB100994A40 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5233711B15697A4400994A40 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		5233711D15697E3300994A40 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		529E60F6156C6819004744D3 /* IntercomAudioQueues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntercomAudioQueues.h; sourceTree = "<group>"; };
+		529E60F7156C6819004744D3 /* IntercomAudioQueues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntercomAudioQueues.m; sourceTree = "<group>"; };
+		529E60FD156F154D004744D3 /* CoreAudioHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAudioHelpers.m; sourceTree = "<group>"; };
+		529E60FF156F1E2F004744D3 /* CoreAudioHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAudioHelpers.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		521DDE791567E6E9003B0699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5233711E15697E3300994A40 /* AVFoundation.framework in Frameworks */,
+				5233711C15697A4400994A40 /* MediaPlayer.framework in Frameworks */,
+				5233711A15696CB100994A40 /* AudioToolbox.framework in Frameworks */,
+				5233711715696BAE00994A40 /* CoreFoundation.framework in Frameworks */,
+				521DDE811567E6EA003B0699 /* UIKit.framework in Frameworks */,
+				521DDE831567E6EA003B0699 /* Foundation.framework in Frameworks */,
+				521DDE851567E6EA003B0699 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521DDE991567E6EA003B0699 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521DDE9F1567E6EA003B0699 /* SenTestingKit.framework in Frameworks */,
+				521DDEA01567E6EA003B0699 /* UIKit.framework in Frameworks */,
+				521DDEA11567E6EA003B0699 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		521DDE711567E6E9003B0699 = {
+			isa = PBXGroup;
+			children = (
+				5233711D15697E3300994A40 /* AVFoundation.framework */,
+				5233711B15697A4400994A40 /* MediaPlayer.framework */,
+				5233711915696CB100994A40 /* AudioToolbox.framework */,
+				5233711615696BAE00994A40 /* CoreFoundation.framework */,
+				521DDE861567E6EA003B0699 /* Intercom */,
+				521DDEA41567E6EA003B0699 /* IntercomTests */,
+				521DDE7F1567E6EA003B0699 /* Frameworks */,
+				521DDE7D1567E6E9003B0699 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		521DDE7D1567E6E9003B0699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				521DDE7C1567E6E9003B0699 /* Intercom.app */,
+				521DDE9D1567E6EA003B0699 /* IntercomTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		521DDE7F1567E6EA003B0699 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521DDE801567E6EA003B0699 /* UIKit.framework */,
+				521DDE821567E6EA003B0699 /* Foundation.framework */,
+				521DDE841567E6EA003B0699 /* CoreGraphics.framework */,
+				521DDE9E1567E6EA003B0699 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		521DDE861567E6EA003B0699 /* Intercom */ = {
+			isa = PBXGroup;
+			children = (
+				529E60FF156F1E2F004744D3 /* CoreAudioHelpers.h */,
+				529E60FD156F154D004744D3 /* CoreAudioHelpers.m */,
+				521DDE8F1567E6EA003B0699 /* AppDelegate.h */,
+				521DDE901567E6EA003B0699 /* AppDelegate.m */,
+				521DDE921567E6EA003B0699 /* IntercomViewController.h */,
+				521DDE931567E6EA003B0699 /* IntercomViewController.m */,
+				521DDE951567E6EA003B0699 /* IntercomViewController.xib */,
+				521DDE871567E6EA003B0699 /* Supporting Files */,
+				529E60F6156C6819004744D3 /* IntercomAudioQueues.h */,
+				529E60F7156C6819004744D3 /* IntercomAudioQueues.m */,
+			);
+			path = Intercom;
+			sourceTree = "<group>";
+		};
+		521DDE871567E6EA003B0699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				521DDE881567E6EA003B0699 /* Intercom-Info.plist */,
+				521DDE891567E6EA003B0699 /* InfoPlist.strings */,
+				521DDE8C1567E6EA003B0699 /* main.m */,
+				521DDE8E1567E6EA003B0699 /* Intercom-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		521DDEA41567E6EA003B0699 /* IntercomTests */ = {
+			isa = PBXGroup;
+			children = (
+				521DDEAA1567E6EA003B0699 /* IntercomTests.h */,
+				521DDEAB1567E6EA003B0699 /* IntercomTests.m */,
+				521DDEA51567E6EA003B0699 /* Supporting Files */,
+			);
+			path = IntercomTests;
+			sourceTree = "<group>";
+		};
+		521DDEA51567E6EA003B0699 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				521DDEA61567E6EA003B0699 /* IntercomTests-Info.plist */,
+				521DDEA71567E6EA003B0699 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		521DDE7B1567E6E9003B0699 /* Intercom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521DDEAF1567E6EA003B0699 /* Build configuration list for PBXNativeTarget "Intercom" */;
+			buildPhases = (
+				521DDE781567E6E9003B0699 /* Sources */,
+				521DDE791567E6E9003B0699 /* Frameworks */,
+				521DDE7A1567E6E9003B0699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Intercom;
+			productName = Intercom;
+			productReference = 521DDE7C1567E6E9003B0699 /* Intercom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		521DDE9C1567E6EA003B0699 /* IntercomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 521DDEB21567E6EA003B0699 /* Build configuration list for PBXNativeTarget "IntercomTests" */;
+			buildPhases = (
+				521DDE981567E6EA003B0699 /* Sources */,
+				521DDE991567E6EA003B0699 /* Frameworks */,
+				521DDE9A1567E6EA003B0699 /* Resources */,
+				521DDE9B1567E6EA003B0699 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				521DDEA31567E6EA003B0699 /* PBXTargetDependency */,
+			);
+			name = IntercomTests;
+			productName = IntercomTests;
+			productReference = 521DDE9D1567E6EA003B0699 /* IntercomTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		521DDE731567E6E9003B0699 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 521DDE761567E6E9003B0699 /* Build configuration list for PBXProject "Intercom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 521DDE711567E6E9003B0699;
+			productRefGroup = 521DDE7D1567E6E9003B0699 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521DDE7B1567E6E9003B0699 /* Intercom */,
+				521DDE9C1567E6EA003B0699 /* IntercomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		521DDE7A1567E6E9003B0699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521DDE8B1567E6EA003B0699 /* InfoPlist.strings in Resources */,
+				521DDE971567E6EA003B0699 /* IntercomViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521DDE9A1567E6EA003B0699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521DDEA91567E6EA003B0699 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		521DDE9B1567E6EA003B0699 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		521DDE781567E6E9003B0699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521DDE8D1567E6EA003B0699 /* main.m in Sources */,
+				521DDE911567E6EA003B0699 /* AppDelegate.m in Sources */,
+				521DDE941567E6EA003B0699 /* IntercomViewController.m in Sources */,
+				529E60F8156C681A004744D3 /* IntercomAudioQueues.m in Sources */,
+				529E60FE156F154D004744D3 /* CoreAudioHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		521DDE981567E6EA003B0699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521DDEAC1567E6EA003B0699 /* IntercomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		521DDEA31567E6EA003B0699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 521DDE7B1567E6E9003B0699 /* Intercom */;
+			targetProxy = 521DDEA21567E6EA003B0699 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		521DDE891567E6EA003B0699 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521DDE8A1567E6EA003B0699 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		521DDE951567E6EA003B0699 /* IntercomViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521DDE961567E6EA003B0699 /* en */,
+			);
+			name = IntercomViewController.xib;
+			sourceTree = "<group>";
+		};
+		521DDEA71567E6EA003B0699 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				521DDEA81567E6EA003B0699 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		521DDEAD1567E6EA003B0699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		521DDEAE1567E6EA003B0699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		521DDEB01567E6EA003B0699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Intercom/Intercom-Prefix.pch";
+				INFOPLIST_FILE = "Intercom/Intercom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		521DDEB11567E6EA003B0699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Intercom/Intercom-Prefix.pch";
+				INFOPLIST_FILE = "Intercom/Intercom-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		521DDEB31567E6EA003B0699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Intercom.app/Intercom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Intercom/Intercom-Prefix.pch";
+				INFOPLIST_FILE = "IntercomTests/IntercomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		521DDEB41567E6EA003B0699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Intercom.app/Intercom";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Intercom/Intercom-Prefix.pch";
+				INFOPLIST_FILE = "IntercomTests/IntercomTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521DDE761567E6E9003B0699 /* Build configuration list for PBXProject "Intercom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521DDEAD1567E6EA003B0699 /* Debug */,
+				521DDEAE1567E6EA003B0699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521DDEAF1567E6EA003B0699 /* Build configuration list for PBXNativeTarget "Intercom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521DDEB01567E6EA003B0699 /* Debug */,
+				521DDEB11567E6EA003B0699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		521DDEB21567E6EA003B0699 /* Build configuration list for PBXNativeTarget "IntercomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				521DDEB31567E6EA003B0699 /* Debug */,
+				521DDEB41567E6EA003B0699 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 521DDE731567E6E9003B0699 /* Project object */;
+}

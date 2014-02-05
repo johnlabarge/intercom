@@ -1,0 +1,298 @@
+TIntercom
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Info.plist Intercom/Intercom-Info.plist
+cProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch.pth Intercom/Intercom-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/main.o /Developer/Intercom/Intercom/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/AppDelegate.o /Developer/Intercom/Intercom/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/IntercomViewController.o /Developer/Intercom/Intercom/IntercomViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Intercom normal i386
+cGenerateDSYMFile /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app.dSYM /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Intercom
+cCopyStringsFile /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/en.lproj/InfoPlist.strings Intercom/en.lproj/InfoPlist.strings
+cCompileXIB /Developer/Intercom/Intercom/en.lproj/IntercomViewController.xib
+cTouch /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004F6D2FF20000000000182900
+t1332555762
+s1583360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F6D2FF200000000002FDC30
+t1332555762
+s3136560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004F6D2FF30000000000285600
+t1332555763
+s2643456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F6D2FF30000000000244490
+t1332555763
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F6D2FF60000000000353830
+t1332555766
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004F6D2FFC0000000000243A90
+t1332555772
+s2374288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F6D30000000000000905E40
+t1332555776
+s9461312
+
+N/Developer/Intercom/Intercom/AppDelegate.h
+c000000004FB7B2820000000000000185
+t1337438850
+s389
+
+N/Developer/Intercom/Intercom/AppDelegate.m
+c000000004FB7B2BB000000000000096D
+t1337438907
+s2413
+
+N/Developer/Intercom/Intercom/Intercom-Prefix.pch
+c000000004FB7AF6A000000000000013F
+t1337438058
+s319
+
+N/Developer/Intercom/Intercom/IntercomViewController.h
+c000000004FB9977700000000000009E8
+t1337562999
+s2536
+
+N/Developer/Intercom/Intercom/IntercomViewController.m
+c000000004FB99DE80000000000001E90
+t1337564648
+s7824
+
+N/Developer/Intercom/Intercom/en.lproj/InfoPlist.strings
+c000000004FB7AF6A000000000000002D
+t1337438058
+s45
+
+N/Developer/Intercom/Intercom/en.lproj/IntercomViewController.xib
+c000000004FB97BAE00000000000031E6
+t1337555886
+s12774
+
+N/Developer/Intercom/Intercom/main.m
+c000000004FB7AF6A0000000000000159
+t1337438058
+s345
+
+N/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app
+t1337564739
+s204
+
+N/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app.dSYM
+t1337564737
+s102
+
+N/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Info.plist
+t1337537769
+s798
+
+N/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Intercom
+t1337564736
+s37688
+
+N/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/PkgInfo
+t1337537769
+s8
+
+N/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/en.lproj/InfoPlist.strings
+t1337539198
+s42
+
+N/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/en.lproj/IntercomViewController.nib
+t1337564739
+s1850
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/AppDelegate.o
+t1337564736
+s65020
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/Intercom.LinkFileList
+c000000004FB934E90000000000000154
+t1337537769
+s340
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/IntercomViewController.o
+t1337564736
+s86016
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/main.o
+t1337537770
+s3124
+
+N/var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch.pth
+t1337537770
+s4028804
+
+NIntercom/Intercom-Info.plist
+c000000004FB7AF6A0000000000000492
+t1337438058
+s1170
+
+CBuild AST from /Developer/Intercom/Intercom/AppDelegate.m
+r0
+
+CBuild AST from /Developer/Intercom/Intercom/IntercomViewController.m
+r0
+
+CBuild AST from /Developer/Intercom/Intercom/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies47004f66d669b541^ae838b66d669b541^---0#1#0#--18"Check dependencies36"46255A3C-FDA4-4AC7-84B0-922B109A177B-
+
+CCompileC build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/AppDelegate.o /Developer/Intercom/Intercom/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359257535.912836
+e359257536.721688
+r1
+xCompileC
+xbuild/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/AppDelegate.o
+x/Developer/Intercom/Intercom/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Developer/Intercom/Intercom/AppDelegate.m35cfe9bfd569b541^8bc0b8c0d569b541^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Developer/Intercom/Intercom/AppDelegate.m0000000000000000^3016"CompileC build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/AppDelegate.o Intercom/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Intercom    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-generated-files.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-own-target-headers.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-all-target-headers.hmap -iquote /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-project-headers.hmap -I/Developer/Intercom/build/Debug-iphonesimulator/include -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/DerivedSources/i386 -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/DerivedSources -F/Developer/Intercom/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch -MMD -MT dependencies -MF /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/AppDelegate.dia -c /Developer/Intercom/Intercom/AppDelegate.m -o /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/AppDelegate.o36"D7B50656-D0FC-4A46-A6F4-3789940C795C-
+
+CCompileC build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/IntercomViewController.o /Developer/Intercom/Intercom/IntercomViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359257535.913955
+e359257536.715142
+r1
+xCompileC
+xbuild/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/IntercomViewController.o
+x/Developer/Intercom/Intercom/IntercomViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/Intercom/Intercom/IntercomViewController.m:80:34: warning: incompatible pointer types passing 'AudioQueueBufferRef *' (aka 'struct AudioQueueBuffer **') to parameter of type 'AudioQueueBufferRef' (aka 'struct AudioQueueBuffer *')remove & [-Wincompatible-pointer-types]
+o                                 &_inBuffers[i],                          
+o                                 ^~~~~~~~~~~~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h:935:73: note: passing argument to parameter 'inBuffer' here
+o                                    AudioQueueBufferRef                 inBuffer,
+o                                                                        ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:108:2: warning: control reaches end of non-void function [-Wreturn-type]
+o{}
+o ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:115:12: warning: incompatible pointer to integer conversion initializing 'UInt32' (aka 'unsigned long') with an expression of type 'const CFStringRef' (aka 'const struct __CFString *const'); 
+o    UInt32 audioRouteOverride = kAudioSessionOutputRoute_AirPlay;
+o           ^                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Developer/Intercom/Intercom/IntercomViewController.m:127:14: warning: unused variable 'deactivationError' [-Wunused-variable]
+o    NSError *deactivationError;
+o             ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:171:47: warning: incompatible pointer types passing 'AudioStreamBasicDescription *' (aka 'struct AudioStreamBasicDescription *') to parameter of type 'const AudioStreamPacketDescription *' (aka 'const struct AudioStreamPacketDescription *') [-Wincompatible-pointer-types]
+o    AudioQueueEnqueueBuffer(inAQ, inBuffer,0, getAudioFormat());
+o                                              ^~~~~~~~~~~~~~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h:937:73: note: passing argument to parameter 'inPacketDescs' here
+o                                    const AudioStreamPacketDescription *inPacketDescs)      __OSX_AVAILABLE_STARTING(__MAC_10_5,__IPHONE_2_0);
+o                                                                        ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:190:37: warning: incompatible integer to pointer conversion passing 'unsigned long' to parameter of type 'UInt32 *' (aka 'unsigned long *'); 
+o                          &playing, sizeof(playing));
+o                                    ^~~~~~~~~~~~~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h:1222:61: note: passing argument to parameter 'ioDataSize' here
+o                                    UInt32 *                ioDataSize)             __OSX_AVAILABLE_STARTING(__MAC_10_5,__IPHONE_2_0);
+o                                                            ^
+o6 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Developer/Intercom/Intercom/IntercomViewController.mda1deabfd569b541^9a5db7c0d569b541^-3181"/Developer/Intercom/Intercom/IntercomViewController.m:80:34: warning: incompatible pointer types passing 'AudioQueueBufferRef *' (aka 'struct AudioQueueBuffer **') to parameter of type 'AudioQueueBufferRef' (aka 'struct AudioQueueBuffer *')remove & [-Wincompatible-pointer-types]                                 &_inBuffers[i],                                                           ^~~~~~~~~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h:935:73: note: passing argument to parameter 'inBuffer' here                                    AudioQueueBufferRef                 inBuffer,                                                                        ^/Developer/Intercom/Intercom/IntercomViewController.m:108:2: warning: control reaches end of non-void function [-Wreturn-type]{} ^/Developer/Intercom/Intercom/IntercomViewController.m:115:12: warning: incompatible pointer to integer conversion initializing 'UInt32' (aka 'unsigned long') with an expression of type 'const CFStringRef' (aka 'const struct __CFString *const');     UInt32 audioRouteOverride = kAudioSessionOutputRoute_AirPlay;           ^                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Developer/Intercom/Intercom/IntercomViewController.m:127:14: warning: unused variable 'deactivationError' [-Wunused-variable]    NSError *deactivationError;             ^/Developer/Intercom/Intercom/IntercomViewController.m:171:47: warning: incompatible pointer types passing 'AudioStreamBasicDescription *' (aka 'struct AudioStreamBasicDescription *') to parameter of type 'const AudioStreamPacketDescription *' (aka 'const struct AudioStreamPacketDescription *') [-Wincompatible-pointer-types]    AudioQueueEnqueueBuffer(inAQ, inBuffer,0, getAudioFormat());                                              ^~~~~~~~~~~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h:937:73: note: passing argument to parameter 'inPacketDescs' here                                    const AudioStreamPacketDescription *inPacketDescs)      __OSX_AVAILABLE_STARTING(__MAC_10_5,__IPHONE_2_0);                                                                        ^/Developer/Intercom/Intercom/IntercomViewController.m:190:37: warning: incompatible integer to pointer conversion passing 'unsigned long' to parameter of type 'UInt32 *' (aka 'unsigned long *');                           &playing, sizeof(playing));                                    ^~~~~~~~~~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h:1222:61: note: passing argument to parameter 'ioDataSize' here                                    UInt32 *                ioDataSize)             __OSX_AVAILABLE_STARTING(__MAC_10_5,__IPHONE_2_0);                                                            ^6 warnings generated.6(36%IDEClangDiagnosticActivityLogMessage2@178"Incompatible pointer types passing 'AudioQueueBufferRef *' (aka 'struct AudioQueueBuffer **') to parameter of type 'AudioQueueBufferRef' (aka 'struct AudioQueueBuffer *')remove &-359257536#18446744073709551615#0#1(2@45"Passing argument to parameter 'inBuffer' here-359257536#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@201"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h0000000000000000^934#72#934#72#48048#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^79#33#79#33#2736#0#14"Semantic Issue2(3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^79#33#79#47#2736#13#3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^79#33#79#34#2736#0#-2@40"Control reaches end of non-void function-359257536#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^107#1#107#1#3567#0#14"Semantic Issue--2@174"Incompatible pointer to integer conversion initializing 'UInt32' (aka 'unsigned long') with an expression of type 'const CFStringRef' (aka 'const struct __CFString *const'); -359257536#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^114#11#114#11#3756#0#14"Semantic Issue1(3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^114#32#114#64#3777#0#-2@35"Unused variable 'deactivationError'-359257536#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^126#13#126#13#4144#0#19"Unused Entity Issue--2@223"Incompatible pointer types passing 'AudioStreamBasicDescription *' (aka 'struct AudioStreamBasicDescription *') to parameter of type 'const AudioStreamPacketDescription *' (aka 'const struct AudioStreamPacketDescription *')-359257536#18446744073709551615#0#1(2@50"Passing argument to parameter 'inPacketDescs' here-359257536#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@201"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h0000000000000000^936#72#936#72#48220#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^170#46#170#46#5335#0#14"Semantic Issue1(3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^170#46#170#62#5335#15#-2@124"Incompatible integer to pointer conversion passing 'unsigned long' to parameter of type 'UInt32 *' (aka 'unsigned long *'); -359257536#18446744073709551615#0#1(2@47"Passing argument to parameter 'ioDataSize' here-359257536#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@201"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h0000000000000000^1221#60#1221#60#63063#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^189#36#189#36#6312#0#14"Semantic Issue1(3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^189#36#189#51#6312#14#-0#0#0#-19%DVTDocumentLocation4@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^3082"CompileC build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/IntercomViewController.o Intercom/IntercomViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Intercom    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-generated-files.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-own-target-headers.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-all-target-headers.hmap -iquote /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-project-headers.hmap -I/Developer/Intercom/build/Debug-iphonesimulator/include -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/DerivedSources/i386 -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/DerivedSources -F/Developer/Intercom/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch -MMD -MT dependencies -MF /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/IntercomViewController.d --serialize-diagnostics /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/IntercomViewController.dia -c /Developer/Intercom/Intercom/IntercomViewController.m -o /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/IntercomViewController.o36"E8628185-590A-4A96-93F9-6C55091F1888-
+
+CCompileC build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/main.o /Developer/Intercom/Intercom/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359230570.737893
+e359230570.926439
+r1
+xCompileC
+xbuild/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/main.o
+x/Developer/Intercom/Intercom/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Developer/Intercom/Intercom/main.m0b08bd6a6c69b541^c13bed6a6c69b541^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Developer/Intercom/Intercom/main.m0000000000000000^2974"CompileC build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/main.o Intercom/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Intercom    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-generated-files.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-own-target-headers.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-all-target-headers.hmap -iquote /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-project-headers.hmap -I/Developer/Intercom/build/Debug-iphonesimulator/include -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/DerivedSources/i386 -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/DerivedSources -F/Developer/Intercom/build/Debug-iphonesimulator -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch -MMD -MT dependencies -MF /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/main.d --serialize-diagnostics /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/main.dia -c /Developer/Intercom/Intercom/main.m -o /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/main.o36"D46A61DF-7A93-4D05-B896-887B857CBDB3-
+
+CCompileXIB /Developer/Intercom/Intercom/en.lproj/IntercomViewController.xib
+s359257537.030840
+e359257539.585473
+r1
+xCompileXIB
+x/Developer/Intercom/Intercom/en.lproj/IntercomViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compiling /Developer/Intercom/Intercom/en.lproj/IntercomViewController.xib320008c1d569b541^2dec95c3d569b541^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Developer/Intercom/Intercom/en.lproj/IntercomViewController.xib0000000000000000^839"CompileXIB Intercom/en.lproj/IntercomViewController.xib    cd /Developer/Intercom    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/en.lproj/IntercomViewController.nib /Developer/Intercom/Intercom/en.lproj/IntercomViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"88006C9A-079E-4BF6-AC10-AC0A9A28B489-
+
+CCopyStringsFile /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/en.lproj/InfoPlist.strings Intercom/en.lproj/InfoPlist.strings
+s359231998.629690
+e359231998.635494
+r1
+xCopyStringsFile
+x/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/en.lproj/InfoPlist.strings
+xIntercom/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy Intercom/en.lproj/InfoPlist.strings944da1fe7169b541^a8a8a2fe7169b541^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Developer/Intercom/Intercom/en.lproj/InfoPlist.strings0000000000000000^541"CopyStringsFile build/Debug-iphonesimulator/Intercom.app/en.lproj/InfoPlist.strings Intercom/en.lproj/InfoPlist.strings    cd /Developer/Intercom    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/en.lproj -- Intercom/en.lproj/InfoPlist.strings36"8080DFE2-319E-4D27-982C-B0070CB54986-
+
+CGenerateDSYMFile /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app.dSYM /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Intercom
+s359257536.967502
+e359257537.020695
+r1
+xGenerateDSYMFile
+x/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app.dSYM
+x/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Intercom
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Generating /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app.dSYM6ac1f7c0d569b541^344b0ac1d569b541^---0#0#0#-19%DVTDocumentLocation2@82"file://localhost/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app.dSYM/0000000000000000^583"GenerateDSYMFile build/Debug-iphonesimulator/Intercom.app.dSYM build/Debug-iphonesimulator/Intercom.app/Intercom    cd /Developer/Intercom    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/dsymutil /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Intercom -o /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app.dSYM36"6F3C2FE1-E2A9-4B26-A3D7-64B4A7B4576F-
+
+CLd /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Intercom normal i386
+s359257536.729135
+e359257536.960615
+r1
+xLd
+x/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Intercom
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Link /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Intercom06f4bac0d569b541^9fc700c1d569b541^---0#0#0#--1170"Ld build/Debug-iphonesimulator/Intercom.app/Intercom normal i386    cd /Developer/Intercom    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Developer/Intercom/build/Debug-iphonesimulator -F/Developer/Intercom/build/Debug-iphonesimulator -filelist /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Objects-normal/i386/Intercom.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -framework AVFoundation -framework MediaPlayer -framework AudioToolbox -framework CoreFoundation -framework UIKit -framework Foundation -framework CoreGraphics -o /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Intercom36"5A6E881A-ECE6-4DF9-A0F5-EFD83439BB67-
+
+CProcessInfoPlistFile /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Info.plist Intercom/Intercom-Info.plist
+s359230569.400079
+e359230569.408416
+r1
+xProcessInfoPlistFile
+x/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Info.plist
+xIntercom/Intercom-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process Intercom/Intercom-Info.plista27f66696c69b541^38d768696c69b541^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Developer/Intercom/Intercom/Intercom-Info.plist0000000000000000^600"ProcessInfoPlistFile build/Debug-iphonesimulator/Intercom.app/Info.plist Intercom/Intercom-Info.plist    cd /Developer/Intercom    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Intercom/Intercom-Info.plist -genpkginfo /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app/Info.plist36"AC3C1292-48A8-4863-B449-3021DB61AB0F-
+
+CProcessPCH /Users/john/Library/Developer/Xcode/DerivedData/Intercom-aojkpaohenviabacwtyyeojfpscu/Index/PrecompiledHeaders/Intercom-Prefix-gdcnonfsgxznwhdztaubusvopgkd_ast/Intercom-Prefix.pch.pth Intercom/Intercom-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch.pth Intercom/Intercom-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359230569.417548
+e359230570.730408
+r1
+xProcessPCH
+x/var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch.pth
+xIntercom/Intercom-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Intercom/Intercom-Prefix.pch70066b696c69b541^cefcba6a6c69b541^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Developer/Intercom/Intercom/Intercom-Prefix.pch0000000000000000^3089"ProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch.pth Intercom/Intercom-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Intercom    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -Wno-conversion -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=50100 -iquote /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-generated-files.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-own-target-headers.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-all-target-headers.hmap -iquote /Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/Intercom-project-headers.hmap -I/Developer/Intercom/build/Debug-iphonesimulator/include -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/DerivedSources/i386 -I/Developer/Intercom/build/Intercom.build/Debug-iphonesimulator/Intercom.build/DerivedSources -F/Developer/Intercom/build/Debug-iphonesimulator --serialize-diagnostics /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch.dia -c /Developer/Intercom/Intercom/Intercom-Prefix.pch -o /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-hkqmyuhttzsngfcanxajnygtmtzl/Intercom-Prefix.pch.d36"B93C3EAF-63EE-44E7-8344-06FDA9485A93-
+
+CTouch /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app
+s359257539.593627
+e359257539.600425
+r1
+xTouch
+x/Developer/Intercom/build/Debug-iphonesimulator/Intercom.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Touch /Developer/Intercom/build/Debug-iphonesimulator/Intercom.appd00a98c3d569b541^ecdf99c3d569b541^---0#0#0#--352"Touch build/Debug-iphonesimulator/Intercom.app    cd /Developer/Intercom    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Intercom/build/Debug-iphonesimulator/Intercom.app36"FBDA63BF-178C-4F96-A19B-7B7C45B0056D-
+

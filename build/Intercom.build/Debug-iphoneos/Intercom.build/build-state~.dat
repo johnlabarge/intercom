@@ -1,0 +1,382 @@
+TIntercom
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/Intercom.app/ResourceRules.plist
+cProcessInfoPlistFile /Developer/Intercom/build/Debug-iphoneos/Intercom.app/Info.plist Intercom/Intercom-Info.plist
+cProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch.pth Intercom/Intercom-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/main.o /Developer/Intercom/Intercom/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/AppDelegate.o /Developer/Intercom/Intercom/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomViewController.o /Developer/Intercom/Intercom/IntercomViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomAudioQueues.o /Developer/Intercom/Intercom/IntercomAudioQueues.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/CoreAudioHelpers.o /Developer/Intercom/Intercom/CoreAudioHelpers.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Developer/Intercom/build/Debug-iphoneos/Intercom.app/Intercom normal armv7
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk
+c000000004F453DF20000000000000110
+t1329937906
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist
+c000000004F6D2FBF00000000000001A7
+t1332555711
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+c000000004F6D2FBF00000000000001E5
+t1332555711
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004F6D2FC2000000000015B230
+t1332555714
+s1421872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004F6D2FC300000000005C33D0
+t1332555715
+s6042576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004F6D2FC30000000000458FB0
+t1332555715
+s4558768
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004F6D2FC400000000003AE430
+t1332555716
+s3859504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004F6D2FC5000000000052C940
+t1332555717
+s5425472
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004F6D2FC60000000000257F70
+t1332555718
+s2457456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004F6D2FC90000000000798EA0
+t1332555721
+s7966368
+
+N/Developer/Intercom/Intercom/AppDelegate.m
+c000000004FB7B2BB000000000000096D
+t1337438907
+s2413
+
+N/Developer/Intercom/Intercom/CoreAudioHelpers.m
+c000000004FBEE29B0000000000000806
+t1337909915
+s2054
+
+N/Developer/Intercom/Intercom/Intercom-Prefix.pch
+c000000004FB7AF6A000000000000013F
+t1337438058
+s319
+
+N/Developer/Intercom/Intercom/IntercomAudioQueues.m
+c000000004FBC3AEB00000000000000E4
+t1337735915
+s228
+
+N/Developer/Intercom/Intercom/IntercomViewController.m
+c000000004FBEE29B00000000000025C3
+t1337909915
+s9667
+
+N/Developer/Intercom/Intercom/en.lproj/InfoPlist.strings
+c000000004FB7AF6A000000000000002D
+t1337438058
+s45
+
+N/Developer/Intercom/Intercom/en.lproj/IntercomViewController.xib
+c000000004FB97BAE00000000000031E6
+t1337555886
+s12774
+
+N/Developer/Intercom/Intercom/main.m
+c000000004FB7AF6A0000000000000159
+t1337438058
+s345
+
+N/Developer/Intercom/build/Debug-iphoneos/Intercom.app
+t2
+s0
+
+N/Developer/Intercom/build/Debug-iphoneos/Intercom.app.dSYM
+t2
+s0
+
+N/Developer/Intercom/build/Debug-iphoneos/Intercom.app/Info.plist
+t2
+s0
+
+N/Developer/Intercom/build/Debug-iphoneos/Intercom.app/Intercom
+t2
+s0
+
+N/Developer/Intercom/build/Debug-iphoneos/Intercom.app/PkgInfo
+t2
+s0
+
+N/Developer/Intercom/build/Debug-iphoneos/Intercom.app/ResourceRules.plist
+t2
+s0
+
+N/Developer/Intercom/build/Debug-iphoneos/Intercom.app/embedded.mobileprovision
+t2
+s0
+
+N/Developer/Intercom/build/Debug-iphoneos/Intercom.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Developer/Intercom/build/Debug-iphoneos/Intercom.app/en.lproj/IntercomViewController.nib
+t2
+s0
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom.xcent
+t2
+s0
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/AppDelegate.o
+t2
+s0
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/CoreAudioHelpers.o
+t2
+s0
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/Intercom.LinkFileList
+c000000004FBEE5320000000000000223
+t1337910578
+s547
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomAudioQueues.o
+t2
+s0
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomViewController.o
+t2
+s0
+
+N/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/john/Library/MobileDevice/Provisioning Profiles/043422B0-5802-41B7-96E0-B029E4FFDC42.mobileprovision
+c000000004EF285280000000000001DF6
+t1324516648
+s7670
+
+N/var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch.pth
+t2
+s0
+
+NIntercom/Intercom-Info.plist
+c000000004FB7AF6A0000000000000492
+t1337438058
+s1170
+
+CBuild AST from /Developer/Intercom/Intercom/AppDelegate.m
+r0
+
+CBuild AST from /Developer/Intercom/Intercom/CoreAudioHelpers.m
+r0
+
+CBuild AST from /Developer/Intercom/Intercom/IntercomAudioQueues.m
+r0
+
+CBuild AST from /Developer/Intercom/Intercom/IntercomViewController.m
+r0
+
+CBuild AST from /Developer/Intercom/Intercom/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfe0ed1b11c6fb541^244746b21c6fb541^---0#1#0#--18"Check dependencies36"6C6C1545-0675-41C7-BE13-A9673ECE2BD2-
+
+CCodeSign /Developer/Intercom/build/Debug-iphoneos/Intercom.app
+r0
+
+CCompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/AppDelegate.o /Developer/Intercom/Intercom/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359603382.227458
+e359603382.957686
+r1
+xCompileC
+xbuild/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/AppDelegate.o
+x/Developer/Intercom/Intercom/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Compile /Developer/Intercom/Intercom/AppDelegate.ma8533ab61c6fb541^b72af5b61c6fb541^---0#0#0#-19%DVTDocumentLocation2@58"file://localhost/Developer/Intercom/Intercom/AppDelegate.m0000000000000000^2816"CompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/AppDelegate.o Intercom/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Intercom    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-generated-files.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-own-target-headers.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-all-target-headers.hmap -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-project-headers.hmap -I/Developer/Intercom/build/Debug-iphoneos/include -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources/armv7 -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources -F/Developer/Intercom/build/Debug-iphoneos -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch -MMD -MT dependencies -MF /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/AppDelegate.dia -c /Developer/Intercom/Intercom/AppDelegate.m -o /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/AppDelegate.o36"DF67F581-B7F1-4D14-A18B-49B2AF84D750-
+
+CCompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/CoreAudioHelpers.o /Developer/Intercom/Intercom/CoreAudioHelpers.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359603383.675331
+e359603383.781992
+r1
+xCompileC
+xbuild/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/CoreAudioHelpers.o
+x/Developer/Intercom/Intercom/CoreAudioHelpers.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Developer/Intercom/Intercom/CoreAudioHelpers.m4606adb71c6fb541^166932b81c6fb541^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Developer/Intercom/Intercom/CoreAudioHelpers.m0000000000000000^2846"CompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/CoreAudioHelpers.o Intercom/CoreAudioHelpers.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Intercom    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-generated-files.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-own-target-headers.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-all-target-headers.hmap -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-project-headers.hmap -I/Developer/Intercom/build/Debug-iphoneos/include -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources/armv7 -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources -F/Developer/Intercom/build/Debug-iphoneos -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch -MMD -MT dependencies -MF /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/CoreAudioHelpers.d --serialize-diagnostics /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/CoreAudioHelpers.dia -c /Developer/Intercom/Intercom/CoreAudioHelpers.m -o /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/CoreAudioHelpers.o36"642AC480-6823-453C-9261-798447B73B62-
+
+CCompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomAudioQueues.o /Developer/Intercom/Intercom/IntercomAudioQueues.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359603383.631967
+e359603383.674048
+r1
+xCompileC
+xbuild/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomAudioQueues.o
+x/Developer/Intercom/Intercom/IntercomAudioQueues.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Developer/Intercom/Intercom/IntercomAudioQueues.md6e4a1b71c6fb541^7a8eacb71c6fb541^---0#0#0#-19%DVTDocumentLocation2@66"file://localhost/Developer/Intercom/Intercom/IntercomAudioQueues.m0000000000000000^2864"CompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomAudioQueues.o Intercom/IntercomAudioQueues.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Intercom    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-generated-files.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-own-target-headers.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-all-target-headers.hmap -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-project-headers.hmap -I/Developer/Intercom/build/Debug-iphoneos/include -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources/armv7 -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources -F/Developer/Intercom/build/Debug-iphoneos -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch -MMD -MT dependencies -MF /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomAudioQueues.d --serialize-diagnostics /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomAudioQueues.dia -c /Developer/Intercom/Intercom/IntercomAudioQueues.m -o /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomAudioQueues.o36"20B92364-AB6C-48CC-ABE2-29D86A7068F3-
+
+CCompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomViewController.o /Developer/Intercom/Intercom/IntercomViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359603382.958942
+e359603383.630405
+r1
+xCompileC
+xbuild/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomViewController.o
+x/Developer/Intercom/Intercom/IntercomViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Developer/Intercom/Intercom/IntercomViewController.m:67:44: warning: implicit declaration of function 'get44K2ChPCMAudioFormat' is invalid in C99 [-Wimplicit-function-declaration]
+o    AudioStreamBasicDescription * format = get44K2ChPCMAudioFormat();
+o                                           ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:67:35: warning: incompatible integer to pointer conversion initializing 'AudioStreamBasicDescription *' (aka 'struct AudioStreamBasicDescription *') with an expression of type 'int'; 
+o    AudioStreamBasicDescription * format = get44K2ChPCMAudioFormat();
+o                                  ^        ~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Developer/Intercom/Intercom/IntercomViewController.m:77:5: warning: implicit declaration of function 'logOsStatus' is invalid in C99 [-Wimplicit-function-declaration]
+o    logOsStatus(@"new input:", status);
+o    ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:98:35: warning: implicit declaration of function 'outBufferSize' is invalid in C99 [-Wimplicit-function-declaration]
+o    NSLog(@"Out buffer size = %d",outBufferSize(1));
+o                                  ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:151:2: warning: control reaches end of non-void function [-Wreturn-type]
+o{}
+o ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:161:38: warning: incompatible pointer types passing 'int *' to parameter of type 'UInt32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]
+o                          &recording,&recordData );
+o                                     ^~~~~~~~~~~
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h:1222:61: note: passing argument to parameter 'ioDataSize' here
+o                                    UInt32 *                ioDataSize)             __OSX_AVAILABLE_STARTING(__MAC_10_5,__IPHONE_2_0);
+o                                                            ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:164:33: warning: conversion specifies type 'int' but the argument has type 'OSStatus' (aka 'long') [-Wformat]
+o    NSLog(@"status after start=%d recording=%d",status, recording);
+o                               ~^               ~~~~~~
+o                               %ld
+o/Developer/Intercom/Intercom/IntercomViewController.m:164:46: warning: conversion specifies type 'int' but the argument has type 'UInt32' (aka 'unsigned long') [-Wformat]
+o    NSLog(@"status after start=%d recording=%d",status, recording);
+o                                            ~^          ~~~~~~~~~
+o                                            %lu
+o/Developer/Intercom/Intercom/IntercomViewController.m:205:5: warning: implicit declaration of function 'copyAQBuffer' is invalid in C99 [-Wimplicit-function-declaration]
+o    copyAQBuffer(buffer,_outBuffers[_currentOutputBufferIndex]); 
+o    ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:43:17: warning: property 'outReady' requires method 'outReady' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation
+o@implementation IntercomViewController 
+o                ^
+o/Developer/Intercom/Intercom/IntercomViewController.h:40:36: note: property declared here
+o@property (assign, nonatomic) BOOL outReady; 
+o                                   ^
+o/Developer/Intercom/Intercom/IntercomViewController.m:43:17: warning: property 'outReady' requires method 'setOutReady:' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation
+o@implementation IntercomViewController 
+o                ^
+o/Developer/Intercom/Intercom/IntercomViewController.h:40:36: note: property declared here
+o@property (assign, nonatomic) BOOL outReady; 
+o                                   ^
+o11 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Developer/Intercom/Intercom/IntercomViewController.m76a5f5b61c6fb541^0b61a1b71c6fb541^-3866"/Developer/Intercom/Intercom/IntercomViewController.m:67:44: warning: implicit declaration of function 'get44K2ChPCMAudioFormat' is invalid in C99 [-Wimplicit-function-declaration]    AudioStreamBasicDescription * format = get44K2ChPCMAudioFormat();                                           ^/Developer/Intercom/Intercom/IntercomViewController.m:67:35: warning: incompatible integer to pointer conversion initializing 'AudioStreamBasicDescription *' (aka 'struct AudioStreamBasicDescription *') with an expression of type 'int';     AudioStreamBasicDescription * format = get44K2ChPCMAudioFormat();                                  ^        ~~~~~~~~~~~~~~~~~~~~~~~~~/Developer/Intercom/Intercom/IntercomViewController.m:77:5: warning: implicit declaration of function 'logOsStatus' is invalid in C99 [-Wimplicit-function-declaration]    logOsStatus(@"new input:", status);    ^/Developer/Intercom/Intercom/IntercomViewController.m:98:35: warning: implicit declaration of function 'outBufferSize' is invalid in C99 [-Wimplicit-function-declaration]    NSLog(@"Out buffer size = %d",outBufferSize(1));                                  ^/Developer/Intercom/Intercom/IntercomViewController.m:151:2: warning: control reaches end of non-void function [-Wreturn-type]{} ^/Developer/Intercom/Intercom/IntercomViewController.m:161:38: warning: incompatible pointer types passing 'int *' to parameter of type 'UInt32 *' (aka 'unsigned long *') [-Wincompatible-pointer-types]                          &recording,&recordData );                                     ^~~~~~~~~~~/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h:1222:61: note: passing argument to parameter 'ioDataSize' here                                    UInt32 *                ioDataSize)             __OSX_AVAILABLE_STARTING(__MAC_10_5,__IPHONE_2_0);                                                            ^/Developer/Intercom/Intercom/IntercomViewController.m:164:33: warning: conversion specifies type 'int' but the argument has type 'OSStatus' (aka 'long') [-Wformat]    NSLog(@"status after start=%d recording=%d",status, recording);                               ~^               ~~~~~~                               %ld/Developer/Intercom/Intercom/IntercomViewController.m:164:46: warning: conversion specifies type 'int' but the argument has type 'UInt32' (aka 'unsigned long') [-Wformat]    NSLog(@"status after start=%d recording=%d",status, recording);                                            ~^          ~~~~~~~~~                                            %lu/Developer/Intercom/Intercom/IntercomViewController.m:205:5: warning: implicit declaration of function 'copyAQBuffer' is invalid in C99 [-Wimplicit-function-declaration]    copyAQBuffer(buffer,_outBuffers[_currentOutputBufferIndex]);     ^/Developer/Intercom/Intercom/IntercomViewController.m:43:17: warning: property 'outReady' requires method 'outReady' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation@implementation IntercomViewController                 ^/Developer/Intercom/Intercom/IntercomViewController.h:40:36: note: property declared here@property (assign, nonatomic) BOOL outReady;                                    ^/Developer/Intercom/Intercom/IntercomViewController.m:43:17: warning: property 'outReady' requires method 'setOutReady:' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation@implementation IntercomViewController                 ^/Developer/Intercom/Intercom/IntercomViewController.h:40:36: note: property declared here@property (assign, nonatomic) BOOL outReady;                                    ^11 warnings generated.11(36%IDEClangDiagnosticActivityLogMessage2@76"Implicit declaration of function 'get44K2ChPCMAudioFormat' is invalid in C99-359603383#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^66#43#66#43#2210#0#14"Semantic Issue--2@167"Incompatible integer to pointer conversion initializing 'AudioStreamBasicDescription *' (aka 'struct AudioStreamBasicDescription *') with an expression of type 'int'; -359603383#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^66#34#66#34#2201#0#14"Semantic Issue1(3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^66#43#66#68#2210#24#-2@64"Implicit declaration of function 'logOsStatus' is invalid in C99-359603383#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^76#4#76#4#2698#0#14"Semantic Issue--2@66"Implicit declaration of function 'outBufferSize' is invalid in C99-359603383#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^97#34#97#34#3489#0#14"Semantic Issue--2@40"Control reaches end of non-void function-359603383#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^150#1#150#1#5433#0#14"Semantic Issue--2@98"Incompatible pointer types passing 'int *' to parameter of type 'UInt32 *' (aka 'unsigned long *')-359603383#18446744073709551615#0#1(2@47"Passing argument to parameter 'ioDataSize' here-359603383#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@187"file://localhost/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioQueue.h0000000000000000^1221#60#1221#60#63063#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^160#37#160#37#5749#0#14"Semantic Issue1(3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^160#37#160#48#5749#1#-2@81"Conversion specifies type 'int' but the argument has type 'OSStatus' (aka 'long')-359603383#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^163#32#163#32#5805#0#19"Format String Issue3(3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^163#48#163#54#5821#0#3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^163#31#163#33#5804#2#3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^163#31#163#33#5804#2#-2@88"Conversion specifies type 'int' but the argument has type 'UInt32' (aka 'unsigned long')-359603383#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^163#45#163#45#5818#0#19"Format String Issue3(3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^163#56#163#65#5829#0#3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^163#44#163#46#5817#2#3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^163#44#163#46#5817#2#-2@65"Implicit declaration of function 'copyAQBuffer' is invalid in C99-359603383#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^204#4#204#4#6771#0#14"Semantic Issue--2@152"Property 'outReady' requires method 'outReady' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation-359603383#18446744073709551615#0#1(2@22"Property declared here-359603383#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.h0000000000000000^39#35#39#35#1335#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^42#16#42#16#1336#0#14"Semantic Issue--2@156"Property 'outReady' requires method 'setOutReady:' to be defined - use @synthesize, @dynamic or provide a method implementation in this class implementation-359603383#18446744073709551615#0#1(2@22"Property declared here-359603383#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.h0000000000000000^39#35#39#35#1335#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^42#16#42#16#1336#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@69"file://localhost/Developer/Intercom/Intercom/IntercomViewController.m0000000000000000^2882"CompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomViewController.o Intercom/IntercomViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Intercom    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-generated-files.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-own-target-headers.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-all-target-headers.hmap -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-project-headers.hmap -I/Developer/Intercom/build/Debug-iphoneos/include -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources/armv7 -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources -F/Developer/Intercom/build/Debug-iphoneos -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch -MMD -MT dependencies -MF /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomViewController.d --serialize-diagnostics /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomViewController.dia -c /Developer/Intercom/Intercom/IntercomViewController.m -o /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/IntercomViewController.o36"59D7C1EF-930B-4E5B-B265-CEA9BF0078CD-
+
+CCompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/main.o /Developer/Intercom/Intercom/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359603382.226741
+e359603382.728829
+r1
+xCompileC
+xbuild/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/main.o
+x/Developer/Intercom/Intercom/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Compile /Developer/Intercom/Intercom/main.m272f3ab61c6fb541^ab94bab61c6fb541^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Developer/Intercom/Intercom/main.m0000000000000000^2774"CompileC build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/main.o Intercom/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Intercom    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-generated-files.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-own-target-headers.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-all-target-headers.hmap -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-project-headers.hmap -I/Developer/Intercom/build/Debug-iphoneos/include -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources/armv7 -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources -F/Developer/Intercom/build/Debug-iphoneos -include /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch -MMD -MT dependencies -MF /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/main.d --serialize-diagnostics /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/main.dia -c /Developer/Intercom/Intercom/main.m -o /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/main.o36"FBF7D2A0-DEF1-48D8-8A02-D5D6647781D5-
+
+CCompileXIB /Developer/Intercom/Intercom/en.lproj/IntercomViewController.xib
+r0
+
+CCopyStringsFile /Developer/Intercom/build/Debug-iphoneos/Intercom.app/en.lproj/InfoPlist.strings Intercom/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/Intercom.app/ResourceRules.plist
+s359603378.292390
+e359603378.340174
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/Intercom.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/Intercom.app/ResourceRules.plistca374bb21c6fb541^f91557b21c6fb541^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Developer/Intercom/build/Debug-iphoneos/Intercom.app/ResourceRules.plist000000000080d041^795"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Debug-iphoneos/Intercom.app/ResourceRules.plist    cd /Developer/Intercom    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Developer/Intercom/build/Debug-iphoneos/Intercom.app36"3F237344-E6CF-42E3-B4BA-3C687CF89163-
+
+CGenerateDSYMFile /Developer/Intercom/build/Debug-iphoneos/Intercom.app.dSYM /Developer/Intercom/build/Debug-iphoneos/Intercom.app/Intercom
+r0
+
+CLd /Developer/Intercom/build/Debug-iphoneos/Intercom.app/Intercom normal armv7
+s359603383.789004
+e359603385.228291
+r0
+xLd
+x/Developer/Intercom/build/Debug-iphoneos/Intercom.app/Intercom
+xnormal
+xarmv7
+oUndefined symbols for architecture armv7:
+o  "_get44K2ChPCMAudioFormat", referenced from:
+o      -[IntercomViewController viewDidLoad] in IntercomViewController.o
+old: symbol(s) not found for architecture armv7
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Link /Developer/Intercom/build/Debug-iphoneos/Intercom.app/Intercomb612cab71c6fb541^207e3ab91c6fb541^-288"Undefined symbols for architecture armv7:  "_get44K2ChPCMAudioFormat", referenced from:      -[IntercomViewController viewDidLoad] in IntercomViewController.old: symbol(s) not found for architecture armv7clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@44""_get44K2ChPCMAudioFormat", referenced from:-359603385#42#47#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--2@65"-[IntercomViewController viewDidLoad] in IntercomViewController.o-359603385#89#72#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@42"Symbol(s) not found for architecture armv7-359603385#161#47#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#26"Apple Mach-O Linker Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-359603385#208#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#25"Apple Mach-O Linker Error--0#0#0#--1023"Ld build/Debug-iphoneos/Intercom.app/Intercom normal armv7    cd /Developer/Intercom    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -L/Developer/Intercom/build/Debug-iphoneos -F/Developer/Intercom/build/Debug-iphoneos -filelist /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Objects-normal/armv7/Intercom.LinkFileList -dead_strip -fobjc-arc -miphoneos-version-min=5.1 -framework AVFoundation -framework MediaPlayer -framework AudioToolbox -framework CoreFoundation -framework UIKit -framework Foundation -framework CoreGraphics -o /Developer/Intercom/build/Debug-iphoneos/Intercom.app/Intercom36"73B66335-13AF-4B73-A704-5DCD5A3E9A3E-
+
+CProcessInfoPlistFile /Developer/Intercom/build/Debug-iphoneos/Intercom.app/Info.plist Intercom/Intercom-Info.plist
+s359603378.293256
+e359603378.339617
+r1
+xProcessInfoPlistFile
+x/Developer/Intercom/build/Debug-iphoneos/Intercom.app/Info.plist
+xIntercom/Intercom-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Process Intercom/Intercom-Info.plist52284bb21c6fb541^dbf956b21c6fb541^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Developer/Intercom/Intercom/Intercom-Info.plist0000000000000000^658"ProcessInfoPlistFile build/Debug-iphoneos/Intercom.app/Info.plist Intercom/Intercom-Info.plist    cd /Developer/Intercom    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Intercom/Intercom-Info.plist -genpkginfo /Developer/Intercom/build/Debug-iphoneos/Intercom.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Developer/Intercom/build/Debug-iphoneos/Intercom.app/ResourceRules.plist -o /Developer/Intercom/build/Debug-iphoneos/Intercom.app/Info.plist36"DD4BB256-CEDD-4064-B6AE-7C98F17B26B8-
+
+CProcessPCH /Users/john/Library/Developer/Xcode/DerivedData/Intercom-aojkpaohenviabacwtyyeojfpscu/Index/PrecompiledHeaders/Intercom-Prefix-gmlsucrdewsimhaqyudiqmjziknq_ast/Intercom-Prefix.pch.pth Intercom/Intercom-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch.pth Intercom/Intercom-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s359603378.349591
+e359603382.219228
+r1
+xProcessPCH
+x/var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch.pth
+xIntercom/Intercom-Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precompile Intercom/Intercom-Prefix.pch15a859b21c6fb541^431f38b61c6fb541^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Developer/Intercom/Intercom/Intercom-Prefix.pch0000000000000000^2913"ProcessPCH /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch.pth Intercom/Intercom-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Developer/Intercom    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-conversion -Wno-sign-conversion -mthumb "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=5.1 -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-generated-files.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-own-target-headers.hmap -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-all-target-headers.hmap -iquote /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom-project-headers.hmap -I/Developer/Intercom/build/Debug-iphoneos/include -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources/armv7 -I/Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/DerivedSources -F/Developer/Intercom/build/Debug-iphoneos --serialize-diagnostics /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch.dia -c /Developer/Intercom/Intercom/Intercom-Prefix.pch -o /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/4s/bd5klm016bd5852d6ncnw9480000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Intercom-Prefix-ermyalwucwksfzghyrsolpotiwjh/Intercom-Prefix.pch.d36"D6B5DDCB-B704-44E3-B972-BAF023094870-
+
+CProcessProductPackaging "/Users/john/Library/MobileDevice/Provisioning Profiles/043422B0-5802-41B7-96E0-B029E4FFDC42.mobileprovision" /Developer/Intercom/build/Debug-iphoneos/Intercom.app/embedded.mobileprovision
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/Entitlements.plist /Developer/Intercom/build/Intercom.build/Debug-iphoneos/Intercom.build/Intercom.xcent
+r0
+
+CTouch /Developer/Intercom/build/Debug-iphoneos/Intercom.app
+r0
+
